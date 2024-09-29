@@ -1,0 +1,54 @@
+######################################################################################################################################################
+Tutorials / Practice
+######################################################################################################################################################
+
+
+
+--------------- Terminal Commands --------------------------------------------------------------------------------------------------------------------------
+    # 
+
+        Videos
+
+            Detailed Slow Playlist
+            -- https://www.youtube.com/watch?v=MBBWVgE0ewk&list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu&index=1
+
+        Pdf's Or txt
+
+            Self Made Pdf
+            -- 03 Terminal Command Cheat Sheet
+
+
+
+--------------- Git and GitHub --------------------------------------------------------------------------------------------------------------------------
+    # Try Createing A Few Repos Using Terminal Commands and Git Commands only in the terminal
+
+        Websites
+
+            Git Game
+            -- https://learngitbranching.js.org/?locale=en_US
+
+        Videos
+
+            Git PlayList
+            -- https://www.youtube.com/watch?v=KngvG8WzYLU&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=5
+
+            Git Video
+            -- https://www.youtube.com/watch?v=USjZcfj8yxE
+
+            Git With Vscode
+            -- https://www.youtube.com/watch?v=i_23KUAEtUM
+
+            Git With Vscode
+            -- https://www.youtube.com/watch?v=8ZEssR8VTKo
+
+        Pdf's Or txt
+
+            Self Made Pdf
+            -- 02 Git Command Cheat Sheet
+
+            Online Pdf
+            -- 04 Advanced Git Cheat Sheet
+
+
+
+######################################################################################################################################################

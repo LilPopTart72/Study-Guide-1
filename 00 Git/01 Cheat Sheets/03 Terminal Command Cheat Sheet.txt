@@ -1,0 +1,118 @@
+######################################################################################################################################################
+Terminal Commands
+######################################################################################################################################################
+
+
+
+--------------- Directories --------------------------------------------------------------------------------------------------------------------------
+    # Another Fancy Name Folders 
+
+        To Change A Directory Within The Current Directory
+        
+            # You Only Need Quotes Around The Name If There Are Spaces
+
+        -- cd "Name_Of_Folder" 
+
+        To Go back a Directory / Get Out Of Current Directory
+
+        -- cd ..
+
+
+
+--------------- Locate Directories -------------------------------------------------------------------------------------------------------------------
+    # Ways To Search The Current Folder
+
+        To See All Files And Directories In The Current Directory
+
+            (Windows)
+        -- dir 
+            (Windows / Linux)
+        -- ls
+
+        To See All Hidden Files And Directories In The Current Directory
+
+            (Windows)
+        -- dir -h
+            (Windows / Linux)
+        -- ls -h
+
+
+
+--------------- Create And Mutate Directories --------------------------------------------------------------------------------------------------------
+    # Ways To Create Files and Folder
+    # Ways To Remove and Move Files and Folders
+
+        To Create A Directory Within The Current Directory
+
+            # You Only Need Quotes Around The Name If There Are Spaces
+
+        -- mkdir "Name_Of_Folder_Here"
+
+            Ex: -- mkdir Hello
+                -- mkdir hello
+                -- mkdir "Hello World"
+                -- mkdir "this Is A Long Sentence"
+
+        To Create A File Within The Current Directory
+
+            # You Only Need Quotes Around The Name If There Are Spaces
+
+        -- touch Name_Of_File_Here.Ext
+
+            Ex: -- touch Hello.txt
+                -- touch Classes.py
+                -- touch style.css
+                -- touch Presentation.html
+
+        To Create A File Within The Current Directory
+
+            # You Only Need Quotes Around The Name If There Are Spaces
+
+        -- echo Name_Of_File_Here.Ext
+
+            Ex: -- echo Hello.txt
+                -- echo Classes.py
+                -- echo style.css
+                -- echo Presentation.pdf
+
+        To Remove A File Or Directory From The Current Directory
+
+        -- rm "Name_Of_Folder_Or_File_Here"
+
+            Ex: -- rm "Hello"
+                -- rm "Hello World"
+                -- rm "Hello.py"
+                -- rm "hello.css"
+
+        To Rename A File Or Directory From The Current Directory
+
+        -- mv "Name_Of_Folder_Or_File_Here" "New_Name_Of_Folder_Or_File_Here"
+
+
+            Ex: -- mv "Hello" "Hello World"
+                -- mv "Hello" "Bob's Burgers"
+        
+         To Move A File Or Directory From The Current Directory
+
+        -- mv "Name_Of_Folder_Or_File_Here" "Name_Of_Existing_Directory"
+
+
+            Ex: -- mv "Hello" "Hello World"
+                -- mv "Hello" "Bob's Burgers"
+
+
+
+--------------- Extras -------------------------------------------------------------------------------------------------------------------------------
+    # 
+
+        To Get A Manual For The Command
+
+        -- man command
+
+        To Get Help For The Command
+
+        -- help command
+
+
+
+######################################################################################################################################################

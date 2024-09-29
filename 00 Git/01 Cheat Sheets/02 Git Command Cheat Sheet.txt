@@ -1,0 +1,126 @@
+######################################################################################################################################################
+Git Commands
+######################################################################################################################################################
+
+
+
+--------------- Start A Repo --------------------------------------------------------------------------------------------------------------------------
+    # A Fancy Way To Say A Storage System For You Files And Folders
+
+        To Clone A Repo
+
+            -- git clone Web_Adress
+
+        To Create A Repo From Scratch
+
+            -- mkdir "Folder_Name"                      # Creates The Repo Folder
+            -- cd "Folder Name"                         # Moves To The Created Folder
+            -- git init                                 # Initializes the Git Repo
+            -- git remote add origin "REMOTE-URL"       # Adds The Local Repo To A Remote GitHub repo
+
+
+
+--------------- Staging, Commiting, Pushing, And Pulling A Repo -------------------------------------------------------------------------------------------------------------------
+    # 
+
+        To Stage A Change To A File
+
+            -- git add "Folder_Or_File_Name"            # One Speccific File
+            -- git add .                                # Everything In The Current Directory
+            -- git add -A                               # Everything In The Repo
+
+        To Stage A Change To A File
+
+            -- git commit -m "Short Descriptive Message About The Commit Changes"
+
+
+        To Push your commits to the remote reposity
+
+            # It Always Good Practicce To Push When Finishing For The Day
+            # (What Happens If Your Computer Blows UP Overnight Hopefully You Pushed It)
+
+            -- git push                                 # Should Push
+            -- git push --set-upstream origin branch    # Use If Normal Push Doesnt Work (Should Recieve this command as a prompt if the first doesn't work)
+
+        To Grab The Latest Version Of The Remote Respository
+
+            # Its Always Good Practice To Pull Before Working On Any Changes Saves Hasle In The Long Run
+
+            -- git pull                                 # Should pull
+
+
+
+--------------- Create Branches --------------------------------------------------------------------------------------------------------
+    # 
+        
+        To See Availible Remote Branches
+
+            -- git branch -r
+
+        To Create A Branch
+
+            -- git checkout -b Name_Here
+
+        To Move To A Branch
+
+            -- git checkout Name_Of_Branch
+
+        To Move To The Main Branch
+
+            -- git checkout Master
+            -- git checkout main
+
+
+
+--------------- Mutate Branches --------------------------------------------------------------------------------------------------------
+    # How TO Delete And Reset A Branch
+
+        To Delete Branches
+
+            -- git checkout -d <Branch Name>
+        
+        To reset a branch to the main Branch
+
+            -- git reset --hard origin/main
+
+        To reset a branch to A Specific Branch
+
+            -- git reset --hard origin/Name_Of_Branch
+
+
+
+
+--------------- Mergeing And Rebaseing Branches --------------------------------------------------------------------------------------------------------
+    # Ways To Merge And Rebase Branches
+
+        To Merge Branches 
+
+            -- git merge <name of file merging>         ### Usually you merge into the master so checkout master first
+        
+        To Rebase Branches
+
+            -- git rebase <name of file rebaseing>
+
+
+
+--------------- Extras / Helpers -------------------------------------------------------------------------------------------------------------------------------
+    # Extras / Helpers That Could Be Used Often
+
+         To grab status of reposity
+
+            -- git status
+
+
+        To See all commit
+
+            -- git log
+
+        To See Availible Local Branches
+
+            -- git branch
+
+        To reset a branch to the main Branch
+
+            -- git reset --hard origin/main
+
+######################################################################################################################################################
